@@ -4,3 +4,4 @@ sessions/**
 .netrwhist
 vim/.netrwhist
 vim/.viminfo
+.DS_Store
