@@ -7,9 +7,14 @@ fi
 
 export KEYTIMEOUT=1
 
+# Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
+export PATH="$PATH:$HOME/.rvm/bin"
+export PATH="$PATH:/Applications/Postgres.app/Contents/Versions/latest/bin"
+
 source $HOME/.dotfiles/shell/shell_aliases # Shell Aliases
 source $HOME/.dotfiles/shell/shell_exports # Shell Exports
 #source $HOME/.dotfiles/shell/shell_paths   # Shell Paths
+export PATH="$PATH:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
 
 source $HOME/.dotfiles/git/git_aliases # Git Aliases
 
@@ -18,3 +23,9 @@ if [[ -s "$HOME/.zshrc.local" ]]; then
 fi
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+export PATH="/usr/local/opt/libxml2/bin:$PATH"
+export ANDROID_HOME=$HOME/Library/Android/sdk
+export PATH=$PATH:$ANDROID_HOME/emulator
+export PATH=$PATH:$ANDROID_HOME/tools
+export PATH=$PATH:$ANDROID_HOME/tools/bin
+export PATH=$PATH:$ANDROID_HOME/platform-tools

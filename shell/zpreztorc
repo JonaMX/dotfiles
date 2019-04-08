@@ -35,6 +35,7 @@ zstyle ':prezto:load' pmodule \
   'completion' \
   'git' \
   'tmux' \
+  'contrib-prompt' \
   'prompt'
 
 #
@@ -98,6 +99,7 @@ zstyle ':prezto:module:editor' key-bindings 'vi'
 # Setting it to 'random' loads a random theme.
 # Auto set to 'off' on dumb terminals.
 zstyle ':prezto:module:prompt' theme 'sorin'
+#zstyle ':prezto:module:prompt' theme 'spaceship'
 
 #
 # Ruby
