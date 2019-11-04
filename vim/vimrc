@@ -15,6 +15,7 @@ Plug 'sheerun/rspec.vim'
 Plug 'cakebaker/scss-syntax.vim'
 Plug 'hail2u/vim-css3-syntax'
 Plug 'pangloss/vim-javascript'
+Plug 'mxw/vim-jsx'
 
 Plug 'benekastah/neomake'
 Plug 'janko-m/vim-test'
@@ -57,6 +58,8 @@ Plug 'ConradIrwin/vim-bracketed-paste'
 Plug 'leafgarland/typescript-vim'
 Plug 'terryma/vim-multiple-cursors'
 Plug 'fntlnz/atags.vim'
+Plug 'posva/vim-vue'
+Plug 'digitaltoad/vim-pug'
 call plug#end()
 
 let mapleader=","
@@ -77,7 +80,7 @@ filetype plugin on
 set omnifunc=syntaxcomplete#Complete
 
 set smarttab
-set tabstop=2 shiftwidth=2 expandtab
+set tabstop=2 shiftwidth=2 softtabstop=2 expandtab
 
 "let g:indent_guides_enable_on_vim_startup = 1
 let g:indent_guides_start_level = 2
