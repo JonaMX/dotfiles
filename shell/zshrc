@@ -11,12 +11,12 @@ export KEYTIMEOUT=1
 export PATH="$PATH:$HOME/.rvm/bin"
 export PATH="$PATH:/Applications/Postgres.app/Contents/Versions/latest/bin"
 
-source $HOME/.dotfiles/shell/shell_aliases # Shell Aliases
+#source $HOME/.dotfiles/shell/shell_aliases # Shell Aliases
 source $HOME/.dotfiles/shell/shell_exports # Shell Exports
 #source $HOME/.dotfiles/shell/shell_paths   # Shell Paths
 export PATH="$PATH:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
 
-source $HOME/.dotfiles/git/git_aliases # Git Aliases
+#source $HOME/.dotfiles/git/git_aliases # Git Aliases
 
 if [[ -s "$HOME/.zshrc.local" ]]; then
   source $HOME/.zshrc.local # Customizations
@@ -29,3 +29,8 @@ export PATH=$PATH:$ANDROID_HOME/emulator
 export PATH=$PATH:$ANDROID_HOME/tools
 export PATH=$PATH:$ANDROID_HOME/tools/bin
 export PATH=$PATH:$ANDROID_HOME/platform-tools
+export PATH="/Users/Jonatan/.ebcli-virtual-env/executables:$PATH"
+
+# tabtab source for packages
+# uninstall by removing these lines
+[ -f ~/.config/tabtab/__tabtab.bash ] && . ~/.config/tabtab/__tabtab.bash || true

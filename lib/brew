@@ -24,9 +24,6 @@ run_brew() {
             'coreutils' # GNU core utilities (those that come with OS X are outdated)
             'ack'
             'the_silver_searcher'
-            'bash'
-            'bash-completion'
-            'macvim --override-system-vim --with-lua'
 						'--HEAD neovim'
             'tree'
             'wget'
@@ -34,7 +31,6 @@ run_brew() {
             'https://raw.githubusercontent.com/choppsv1/homebrew-term24/master/tmux.rb'
             'reattach-to-user-namespace'
             'tmate'
-            'zsh'
             'tmux' # I recommend to update the tmux version
         )
 

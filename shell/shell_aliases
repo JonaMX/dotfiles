@@ -2,7 +2,7 @@
 
 alias dotfiles="~/.dotfiles/bin/dotfiles"
 # Allow aliases to be with sudo
-alias sudo="sudo "
+alias sudo='sudo '
 
 alias c="clear"
 
@@ -12,6 +12,9 @@ alias r='rails'
 # Neovim and vim
 alias v="nvim"
 alias vi='vim'
+
+# VisualCode
+alias vscode="open -a Visual\ Studio\ Code.app"
 
 # IP addresses
 alias ip="dig +short myip.opendns.com @resolver1.opendns.com"
